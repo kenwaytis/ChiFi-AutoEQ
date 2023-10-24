@@ -3,10 +3,10 @@
 Many IEM or TWS headphones from China are missing in the [AutoEQ project](https://github.com/jaakkopasanen/AutoEq). This project aims to supplement the content of [AutoEQ](https://autoeq.app/) with third-party data. (Mostly for my own use)
 
 ## Usage
-1. Content of the measure folder
+1. Content of the measure folder  
 The measure folder contains the original frequency response charts of the headphones and the .csv data mapped using webplot. The data source is [Woodenears](https://www.woodenears.com/). Through AutoEQ, you can use this data to modify the frequency response of these headphones.
 
-2. Content of the result folder
+2. Content of the result folder  
 These are the final results after I have adjusted the headphone frequency response using AutoEQ. These files should be imported for use in [wavelet](https://github.com/Pittvandewitt/Wavelet) on Android. For example: shp9500-hd800s.txt: shp9500 adjusted frequency response to simulate hd800s.
 
 3. Abbreviation explanation:
