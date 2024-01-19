@@ -1,5 +1,6 @@
 import pandas as pd
 import argparse
+import os
 
 def main(args):
     # Read the CSV file
@@ -18,6 +19,7 @@ def main(args):
 
     # Save the result to a new CSV file
     df.to_csv(args.output, header=False, index=False)
+    os.remove(args.input)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Remove all but the first occurrence of duplicate rows in a CSV file based on the first column.')
